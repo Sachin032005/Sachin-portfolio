@@ -24,64 +24,54 @@
 
 
 
-
 <!-- ─── NAV ─── -->
  
-<nav>
-  <a href="#home" class="nav-logo">HOME</a>
-  <ul class="nav-links">
+    <nav>
+     <a href="#home" class="nav-logo">HOME</a>
+     <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+       <i class="fa-solid fa-bars"></i>
+     </button>
+   <ul class="nav-links" id="navLinks">
     <li><a href="#about">About</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#internship">Internship</a></li>
+    <li><a href="#Experience">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+   </ul>
+    </nav>
 
 
 
 
 
 
-
-
-<!-- ─── HERO ─── -->
+                                                    <!-- ─── HERO ─── -->
       
 <section id="home">
   <h1 class="hero-name"> SACHIN S</h1>
  
+<br>
+   <h2 class="design">Full Stack Web Developer.
+   </h2> <br> 
+    <p> I build clean, responsive, and user-friendly websites.</p>
+    <p>Turning creative ideas into engaging digital experiences. 
+          Passionate about writing clean code and creating better designs.
+          Always learning. Always building. Always improving.
+</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+      <a href="./Resume.pdf" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-eye"></i> View Resume</a>
+      <a href="#contact" class="btn btn-outline">Hire Me ↓ </a>
+    </div>
 
-   <h2 class="design">Frontend Developer & Computer Science Engineer
-   </h2> <br> <br>
-      <p>
-      Building Modern Web Experiences With clean Code and Smooth Performance.
-      </p>
-<p>Passionate Frontend developer Focused on Creating Responsive, User-Friendly Websites Using Modern Web Technologies.</p> <br><br>
-  <div class="hero-cta">
-    <a href="#projects" class="btn btn-primary">View My Work ↓</a>
-    <a href="#contact" class="btn btn-outline">Hire Me ↓ </a>
-  </div>
-
-  <div class="hero-scroll">
-    Scroll
-    <div class="scroll-line"></div>
-  </div>
 </section>
+
 
 <div class="divider"></div>
 
 
-
-
-
-
-
-
-
-
-
-<!-- ─── ABOUT ─── -->
+                                                  <!-- ─── ABOUT ─── -->
 
 <section id="about">
 
@@ -89,21 +79,24 @@
   <div class="about-grid reveal">
     <div class="about-text">
       <p>
-        Hey!  I am  <strong>Sachin S</strong>, BE Computer Science graduate from
+        Hey!  I'm  <strong>Sachin S</strong>, BE Computer Science graduate from
         <strong>Shree Venkateshwara Hi-Tech Engineering College.</strong>.
-         I have strong interest in <strong>Front-end Developer
-      </strong> with hands-on experience in <strong> HTML, CSS, JavaScript, React.js.</strong>
+
+         I have strong interest in <strong>Full Stack Web Development
+      </strong> with hands-on experience in <strong> HTML, CSS, JavaScript, React.js,
+         Node.js, Express.js, PHP, MySQL</strong>
       </p>
 
       <p>
       I enjoying building responsive and user-friendly web applications. 
-      and I have worked on projects like a <strong>portfolio website,
-      Calculator web application, and a Medical device  data dictionary system.</strong>
+      I have worked on projects such as a <strong>portfolio website,
+      Weather API Web Application, Employee Management System, Product Management System
+      and a Medical device  data dictionary system.</strong>
       </p>
 
       <p>
-      I am quick learner, eager to explore new technologies, and
-       currently seeking an opportunity to start my career as a <strong> Front-end  Developer.</strong>
+      <strong>I am quick learner</strong>, eager to explore new technologies, and
+       looking for an opportunity to start my career as a <strong> FullStack Web Developer.</strong>
       </p>
       
     </div>
@@ -113,11 +106,11 @@
         <div class="stat-label">Years of Study</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num">4+</div>
+        <div class="stat-num">6+</div>
         <div class="stat-label">Projects Built</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num">1mo</div>
+        <div class="stat-num">4mo</div>
         <div class="stat-label">Internship Exp.</div>
       </div>
       <div class="stat-card">
@@ -130,22 +123,22 @@
 
 
 
+
 <!-- ─── EDUCATION ─── -->
 
 <section id="education">
   <div class="container">
-    <div class="section-label reveal"><i class="fas fa-graduation-cap"></i> Education</div> 
   
-    <h2 class="section-title reveal">Academic background.</h2>
-    <br>
-    <p class="section-sub reveal">A Strong Computer Science foundation built at an <br>
-      Autonomous Engineering Institution.</p>
- <br><br>
+    <h2 class="section-title reveal"><i class="fas fa-graduation-cap"></i> Education</h2>
+  
+    <p class="section-sub reveal">A Strong Computer Science foundation built at a <br>
+reputed Engineering Institution.</p>
+ 
     <div class="edu-card reveal">
       <div class="edu-icon"><i class="fas fa-university"></i></div>
       <div>
-        <div class="edu-degree">Bachelor of Engineering — Computer Science &amp; Engineering</div>
-        <div class="edu-institution">Shree Venkateshwara Hi-Tech Engineering College (Autonomous), Gobi, <br>
+        <div class="edu-degree">B.E. — Computer Science &amp; Engineering</div>
+        <div class="edu-institution">Shree Venkateshwara Hi-Tech Engineering College (Autonomous),<br> Gobi, 
           Erode – 638455</div>
         <div class="edu-meta">
           <span class="edu-badge primary"><i class="fas fa-calendar"></i> 2022 – 2026</span>
@@ -162,8 +155,6 @@
 
 
 
-
-
 <!-- ─── SKILLS ─── -->
 
 <section id="skills">
@@ -171,23 +162,27 @@
   <h2 class="section-title"> <em>Skills</em></h2>
   <div class="skills-grid" id="skillsGrid">
 
+
+<!-- ─── CARD 1 ─── --> 
     <div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(249,115,22,0.15);">🌐</div>
+          <div class="skill-icon" style="background:rgba(249,115,22,0.15); color:#f97316;"><i class="fab fa-html5"></i></div>
           HTML5
         </div>
-        <div class="skill-pct">90%</div>
+        <div class="skill-pct">95%</div>
       </div>
       <div class="bar-track">
-        <div class="bar-fill" data-pct="90" style="background:linear-gradient(90deg,#f97316,#fb923c);"></div>
+        <div class="bar-fill" data-pct="95" style="background:linear-gradient(90deg,#f97316,#fb923c); font-size: 0px;"></div>
       </div>
     </div>
 
+
+<!-- ─── CARD 2 ─── -->
     <div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(59,130,246,0.15);">🎨</div>
+          <div class="skill-icon" style="background:rgba(59,130,246,0.15); color:#3b82f6;"><i class="fab fa-css3-alt"></i></div>
           CSS3 
         </div>
         <div class="skill-pct">85%</div>
@@ -197,10 +192,12 @@
       </div>
     </div>
 
+
+ <!-- ─── CARD 3 ─── -->
     <div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(234,179,8,0.15);">⚡</div>
+          <div class="skill-icon" style="background:rgba(234,179,8,0.15); color:#eab308;"><i class="fab fa-js"></i></div>
           JavaScript (ES6+)
         </div>
         <div class="skill-pct">70%</div>
@@ -210,68 +207,138 @@
       </div>
     </div>
 
+
+<!-- ─── CARD 4 ─── -->
     <div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(6,182,212,0.15);">⚛️</div>
+          <div class="skill-icon" style="background:rgba(6,182,212,0.15); color:#06b6d4;"><i class="fab fa-react"></i></div>
           React.js
         </div>
-        <div class="skill-pct">60%</div>
+        <div class="skill-pct">70%</div>
       </div>
       <div class="bar-track">
-        <div class="bar-fill" data-pct="60" style="background:linear-gradient(90deg,#06b6d4,#22d3ee);"></div>
+        <div class="bar-fill" data-pct="70" style="background:linear-gradient(90deg,#06b6d4,#22d3ee);"></div>
       </div>
     </div>
 
-    <div class="skill-item">
-      <div class="skill-header">
-        <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(168,85,247,0.15);">🤖</div>
-          ChatGPT
-        </div>
-        <div class="skill-pct">90%</div>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" data-pct="90" style="background:linear-gradient(90deg,#a855f7,#c084fc);"></div>
-      </div>
-    </div>
 
-    <div class="skill-item">
+<!-- ─── CARD 5 ─── -->
+ <div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(244,114,182,0.15);">🎭</div>
-          Figma / UI Design
-        </div>
-        <div class="skill-pct">60%</div>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" data-pct="60" style="background:linear-gradient(90deg,#f472b6,#fb7185);"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-header">
-        <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(20,184,166,0.15);">🐙 </div>
+          <div class="skill-icon" style="background:rgba(20,184,166,0.15); color:#14b8a6;"><i class="fab fa-git-alt"></i></div>
           Git / GitHub
         </div>
         <div class="skill-pct">80%</div>
       </div>
       <div class="bar-track">
-        <div class="bar-fill" data-pct="80" style="background:linear-gradient(90deg,#14b8a6,#2dd4bf);"></div>
+        <div class="bar-fill" data-pct="80" style="background:linear-gradient(90deg,#14b8a6,#2dd4bf); font-size: 0px;"></div>
       </div>
     </div>
 
-    <div class="skill-item">
+
+<!-- ─── CARD 6 ─── -->
+<div class="skill-item">
       <div class="skill-header">
         <div class="skill-name">
-          <div class="skill-icon" style="background:rgba(251,146,60,0.15);">🔗</div>
-          REST APIs / Fetch
+          <div class="skill-icon" style="background:rgba(16,185,129,0.15); color:#10a37f;"><i class="fas fa-robot"></i></div>
+          ChatGPT
+        </div>
+        <div class="skill-pct">90%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="90" style="background:linear-gradient(90deg,#10a37f,#34d399);"></div>
+      </div>
+    </div>
+
+
+<!-- ─── CARD 7 ─── -->
+  <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(140,200,75,0.15); color:#8cc84b;"><i class="fab fa-node-js"></i></div>
+          Node.js
         </div>
         <div class="skill-pct">75%</div>
       </div>
       <div class="bar-track">
-        <div class="bar-fill" data-pct="75" style="background:linear-gradient(90deg,#fb923c,#fbbf24);"></div>
+        <div class="bar-fill" data-pct="75" style="background:linear-gradient(90deg,#8cc84b,#a6d96a);"></div>
+      </div>
+    </div>
+
+
+<!-- ─── CARD 8 ─── -->
+  <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(255,255,255,0.08); color:#ffffff;"><i class="fas fa-server"></i></div>
+          Express.js
+        </div>
+        <div class="skill-pct">75%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="75" style="background:linear-gradient(90deg,#808080,#d3d3d3);"></div>
+      </div>
+    </div>
+
+
+<!-- ─── CARD 9 ─── -->
+     <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(119,123,180,0.15); color:#777bb4;"><i class="fab fa-php"></i></div>
+          PHP
+        </div>
+        <div class="skill-pct">60%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="60" style="background:linear-gradient(90deg,#777bb4,#9fa3d4);"></div>
+      </div>
+    </div>
+
+
+<!-- ─── CARD 10 ─── -->
+     <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(0,117,143,0.15); color:#00758f;"><i class="fas fa-database"></i></div>
+          MYSQL
+        </div>
+        <div class="skill-pct">85%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="85" style="background:linear-gradient(90deg,#00758f,#00a4cc);"></div>
+      </div>
+    </div>
+
+    
+<!-- ─── CARD 11 ─── -->
+    <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(244,114,182,0.15); color:#f472b6;"><i class="fas fa-tasks"></i></div>
+          CRUD Operations
+        </div>
+        <div class="skill-pct">80%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="80" style="background:linear-gradient(90deg,#f472b6,#fb7185);"></div>
+      </div>
+    </div>
+
+
+<!-- ─── CARD 12 ─── -->
+    <div class="skill-item">
+      <div class="skill-header">
+        <div class="skill-name">
+          <div class="skill-icon" style="background:rgba(251,146,60,0.15); color:#fb923c;"><i class="fas fa-network-wired"></i></div>
+          REST APIs
+        </div>
+        <div class="skill-pct">80%</div>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" data-pct="80" style="background:linear-gradient(90deg,#fb923c,#fbbf24);"></div>
       </div>
     </div>
 
@@ -284,61 +351,64 @@
 
 
 
-
-
-
-<!-- ─── PROJECTS ─── -->
+                                                  <!-- ─── PROJECTS ─── -->
 
 
 <section id="projects">
   <p class="section-label">What I've built</p>
-  <h2 class="section-title">My <em>Projects</em></h2>
+  <h2 class="section-title"><i class="fas fa-folder-open"></i> My <em>Projects</em></h2>
   <div class="projects-grid reveal">
 
+
+<!-- ─── CARD 1 ─── -->
     <div class="project-card">
-     <div class="project-emoji">🧮</div>
+     <div class="project-icon"><i class="fas fa-calculator"></i></div>
       <div class="project-title">Calculator Web Apllication</div>
       <div class="project-desc">
-        Developed a responsive calculator using HTML, CSS, JavaScript to perform real-time arithmetic operations. 
-        Improved user experience through efficient  clean UI design. 
+        Built a responsive and user-friendly calculator using HTML, CSS, and JavaScript, featuring a clean,
+         attractive interface and smooth arithmetic operations.
       </div>
       <div class="project-tags">
         <span class="tag">HTML5</span>
         <span class="tag">CSS3</span>
         <span class="tag">JavaScript</span>
       </div>
+
       <div class="project-links">
-       
+      <a href="" class="project-link">Link →</a>
         <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
       </div>
     </div>
 
 
-
+<!-- ─── CARD 2 ─── -->
     <div class="project-card">
-     <div class="project-emoji">💻</div>
-      <div class="project-title">Personal Portfolio</div>
+     <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+      <div class="project-title">Personal Portfolio</div> 
       <div class="project-desc">
-       Designed and developed a responsive portfolio using HTML, CSS, JavaScript to showcase my skills and projects.
-        Created a clean, user-friendly interface and smooth navigation.
+      Developed a responsive and professional portfolio website using HTML, CSS, and JavaScript, 
+      showcasing my skills, projects, education, and experience with an attractive and user-friendly design.
       </div>
       <div class="project-tags">
         <span class="tag">HTML5</span>
         <span class="tag">CSS3</span>
         <span class="tag">JavaScript</span>
       </div>
+
       <div class="project-links">
-        
-        <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
+          <a href="https://sachin-portfolio-gilt.vercel.app/" class="project-link">Link →</a>
+          <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
       </div>
     </div>
 
+
+<!-- ─── CARD 3 ─── -->
     <div class="project-card">
-    <div class="project-emoji">🏥</div>
+    <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
       <div class="project-title">Medical Device Data Dictionary System</div>
       <div class="project-desc">
-       Developed a web-based system using Java and MySQL to manage medical device data and standardize information. 
-       Implemented secure login, CRUD operation.
+       Developed a web-based CRUD application using HTML, CSS, Thymeleaf, Spring Boot, Java, and MySQL to efficiently create, 
+       view, update, and delete medical device data through a user-friendly interface.
       </div>
       <div class="project-tags">
         <span class="tag">HTML5</span>
@@ -347,20 +417,21 @@
         <span class="tag">Spring Boot</span>
         <span class="tag">Java</span>
         <span class="tag">MySQL</span>
-        
       </div>
+
       <div class="project-links">
-       
         <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
       </div>
     </div>
 
+
+<!-- ─── CARD 4 ─── -->
     <div class="project-card">
-      <div class="project-emoji">🛒</div>
-      <div class="project-title">E-Commerce UI</div>
+      <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+      <div class="project-title">Product Management System</div>
       <div class="project-desc">
-      A sleek React E-Commerce UI Showcasing component architecture, state management, 
-      and modern CSS design systems.
+      Developed a responsive product management application using HTML, CSS, JavaScript, and React.js, 
+      with features to add, view, update, delete, and search products through a user-friendly interface.
       </div>
       <div class="project-tags">
         <span class="tag">HTML5</span>
@@ -368,27 +439,58 @@
         <span class="tag">JavaScript</span>
         <span class="tag">React.js</span>
       </div>
+
       <div class="project-links">
-    
+            <a href="" class="project-link">Link →</a>
         <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
       </div>
     </div>
 
+
+<!-- ─── CARD 5 ─── -->
     <div class="project-card">
-      <div class="project-emoji">🏏</div>
-      <div class="project-title">Cricket Registration</div>
+      <div class="project-icon"><i class="fas fa-clipboard-list"></i></div>
+      <div class="project-title">Cricket Registration</div> <br>
       <div class="project-desc">
-        Admin analytics dashboard with interactive charts, data tables, and dark-mode toggle. Uses Chart.js for visualization.
+       Built a responsive tournament registration website using HTML, CSS, and JavaScript.
+Implemented team and player registration with a clean, mobile-friendly design.
       </div>
       <div class="project-tags">
         <span class="tag">HTML5</span>
         <span class="tag">CSS</span>
         <span class="tag">JavaScript</span>
       </div>
+
       <div class="project-links">
+        <a href="" class="project-link">Link →</a>
         <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
       </div>
-    </div>    
+    </div>  
+    
+
+<!-- ─── CARD 6 ─── -->
+   <div class="project-card">
+      <div class="project-icon"><i class="fas fa-users-cog"></i></div>
+      <div class="project-title">Employee Management System</div>
+      <div class="project-desc">
+        Developed a responsive employee management system using HTML, CSS, JavaScript, PHP, and MySQL.
+        Implemented CRUD operations for efficient employee data management. 
+      </div>
+      <div class="project-tags">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">PHP</span>
+        <span class="tag">MYSQL</span>
+      </div>
+
+      <div class="project-links">
+        <a href="" class="project-link">Link →</a>
+        <a href="https://github.com/Sachin032005" class="project-link">GitHub →</a>
+      </div>
+    </div>  
+
+
   </div>
 </section>
 
@@ -401,36 +503,66 @@
 
 
 
-<!-- ─── INTERNSHIP ─── -->
+                                                  <!-- ─── EXPERIENCE ─── -->
 
-<section id="internship">
-  <p class="section-label">Experience</p>
-  <h2 class="section-title">Internship </h2>
+<section id="Experience">
+  <p class="section-label">My</p>
+  <h2 class="section-title">Experience </h2>
   <div class="timeline reveal">
 
+ <!-- ─── card 1 ─── -->
     <div class="timeline-item">
       <div class="timeline-dot"></div>
-      <div class="timeline-meta">
+            <div class="timeline-meta">
         <div class="timeline-company">Gateway Software</div>
         <div class="timeline-badge">Full-time Intern</div>
       </div>
       <div class="timeline-role">Java FullStack Intern</div>
       <div class="timeline-date">📅 June 2025 – July 2025 - 1 Month.</div>
       <div class="timeline-desc">
-        Hands-on experience in Java Full Stack Development.  <br>
-        Contributing to Frontend design, backend logic, and  <br>
-        seamless database integration using HTML, CSS, Java and MySQL.
+     Hands-on experience in FullStack Development.
+Contributing to frontend design, functionality, and database integration using HTML, CSS, JavaScript, and MySQL.
+
       </div>
       <div class="timeline-skills">
         <span class="tag">HTML5</span> 
         <span class="tag">CSS3</span>
-        <span class="tag">Java</span>
         <span class="tag">MySQL</span>
         <span class="tag">REST API</span>
         <span class="tag">VS Code</span>
         <span class="tag">Git</span>
       </div>
     </div>
+
+
+<!-- ─── card 2 ─── -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-meta">
+        <div class="timeline-company">Zerame Infotech</div>
+        <div class="timeline-badge">On Site Intern</div>
+      </div>
+      <div class="timeline-role">FullStack Web Developer</div>
+      <div class="timeline-date">📅 14 July 2026 –  14 October 2026 - 3 Months</div>
+      <div class="timeline-desc">
+       Web Development Intern at Zerame Infotech, gaining hands-on experience in building responsive web applications using React.js, JavaScript, PHP, MySQL, Node.js, and Express.js. 
+       Worked on CRUD-based projects with database integration, APIs, and authentication.
+      </div>
+      <div class="timeline-skills">
+        <span class="tag">HTML5</span> 
+        <span class="tag">CSS3</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React.JS</span> 
+        <span class="tag">Node.js</span>
+        <span class="tag">Express.js</span>
+        <span class="tag">PHP</span> 
+        <span class="tag">MYSQL</span>
+        <span class="tag">CRUD Operations</span>
+
+
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -441,159 +573,92 @@
 
 
 
+                                                 <!-- CONTACT SECTION -->
 
-<!-- CONTACT SECTION -->
 
 <section class="contact-section" id="contact">
 
-    <!-- Heading -->
-
+<!-- Heading -->
     <div class="contact-heading">
-
-        <h4>GET IN TOUCH</h4>
-
         <h1>
-            Let's <span>Connect</span>
+            Let's <span>CONNECT</span>
         </h1>
-
-
-
-
+    </div>
         
-    <!-- Contact Container -->
 
+<!-- Contact Container -->
     <div class="contact-container">
 
         <!-- LEFT SIDE -->
-
         <div class="contact-left">
+            <!-- Social Grid (2x2 with labels) -->
+            <div class="social-grid">
+                <a href="https://wa.me/919360905883" target="_blank" class="social-item">
+                    <span class="social-icon-wrapper">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                    <span class="social-name">WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/_vksachi_03_?igsh=dnI4bHRjODExZzlz" target="_blank" class="social-item">
+                    <span class="social-icon-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                    <span class="social-name">Instagram</span>
+                </a>
+                <a href="https://github.com/Sachin032005" target="_blank" class="social-item">
+                    <span class="social-icon-wrapper">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <span class="social-name">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sachin-s-1bb0a1259" target="_blank" class="social-item">
+                    <span class="social-icon-wrapper">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                    <span class="social-name">LinkedIn</span>
+                </a>
+            </div>
+        </div>
 
-            <!-- Card -->
-
+        <!-- RIGHT SIDE -->
+        <div class="contact-right">
+            <!-- Card 1 -->
             <div class="contact-card">
-
                 <div class="icon-box">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
-
                 <div>
                     <h2>Email</h2>
-                    <p>viratsachi18@gmail.com</p>
+                    <p><a href="mailto:viratsachi18@gmail.com" class="contact-link-text">viratsachi18@gmail.com</a></p>
                 </div>
-
             </div>
 
-
-
-
-            <!-- Card -->
-
+            <!-- Card 2 -->
             <div class="contact-card">
-
                 <div class="icon-box">
                     <i class="fa-solid fa-phone"></i>
                 </div>
-
                 <div>
                     <h2>Phone</h2>
-                    <p>+91 9360905883</p>
+                    <p><a href="tel:+919360905883" class="contact-link-text">+91 9360905883</a></p>
                 </div>
-
             </div>
 
-            <!-- Card -->
-
-
-
+            <!-- Card 3 -->
             <div class="contact-card">
-
                 <div class="icon-box">
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
-
                 <div>
                     <h2>Location</h2>
                     <p>Thalavadi, Erode, TamilNadu - 638461.</p>
                 </div>
-
             </div>
-
-
-
-            <!-- Social Icons -->
-
-            <div class="social-icons">
-
-                <a href="https://wa.me/919360905883" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-
-                <a href="https://www.instagram.com/_vksachi_03_?igsh=dnI4bHRjODExZzlz" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-
-                <a href="https://github.com/Sachin032005" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/in/sachin-s-1bb0a1259" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-
-            </div>
-
-        </div>
-
-
-
-
-
-
-        <!-- RIGHT SIDE -->
-
-        <div class="contact-right">
-
-            <form>
-
-                <div class="input-box">
-                    <input type="text"
-                    placeholder="Your Name">
-
-                </div>
-
-                <div class="input-box">
-                    <input type="email"
-                    placeholder="Your Email">
-
-                </div>
-
-                <div class="input-box">
-                    <input type="text"
-                    placeholder="Subject">
-
-                </div>
-
-                <div class="input-box">
-                    <textarea
-                    placeholder="Your Message">
-                    </textarea>
-
-                </div>
-
-                <button type="submit">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-
-            </form>
-
         </div>
 
     </div>
 
 </section>
-
-
 
 <script src="main.js"></script>
 </body>
